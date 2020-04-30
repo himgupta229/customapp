@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:gravity="center"
+    android:paddingRight="20dp"
+    tools:context=".LandingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/ic_poker"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="RK MATKA\nONLINE"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:hint="MPIN"
+        android:inputType="numberPassword"
+        android:drawablePadding="8dp"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Forgot MPIN?"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

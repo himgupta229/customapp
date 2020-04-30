@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".LandingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/ic_poker"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="RK MATKA\nONLINE"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="8dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_filled"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="login"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_filled"
+        android:gravity="center"
+        android:onClick="launchPin"
+        android:padding="12dp"
+        android:text="login with mpin"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_filled_white"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Forgot Password?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_filled_white"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Forgot Username?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</LinearLayout>

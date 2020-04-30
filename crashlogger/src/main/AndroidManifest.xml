@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.innovate.crashlogger" >
+    <application>
+        <provider
+            android:name=".CrashProvider"
+            android:authorities="${applicationId}.CrashProvider"
+            android:enabled="true"
+            android:exported="false" />
+<!--        <meta-data android:name="io.sentry.auto-init" android:value="false" />-->
+    </application>
+</manifest>
